@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.screen{
+    color:white;
+    text-align: right;
+    flex-grow: 1;
+    font-size: 40px;
+    
+}
+.outer{
+    background-color: black;
+
+    display:flex;
+    
+    
+    height:100px;
+    width:300px;
+    
+    flex-direction: column;
+    align-items: stretch;
+}
+.parts{
+    display:flex;
+    flex-grow: 1;   
+}
+.button_style{
+    background-color:white;
+    color:black;
+    flex-grow: 1;
+}
+.two_buttons{
+    display:flex;
+    flex-grow: 1; 
+}
+.three_buttons{
+    flex-grow: 1; 
+    display:flex;
+}
+.b2_1{
+    flex-grow: 3.6;
+}
+.b2_2{
+    flex-grow: 1;
+}
+.b3_1{
+    flex-grow: 2.2;
+}
+.b3_2{
+    flex-grow: 1;
+}
+.b3_3{
+    flex-grow: 1;
+}
+.lastbutt{
+background-color: orangered;
+color: bisque;
+}
+.button_style:hover{
+    background-color: darkgrey;
+}
+.lastbutt:hover{
+    background-color: lightsalmon;
+}
+.button_style:active{
+    background-color: gray;
+}
+.lastbutt:active{
+    background-color: darkorange;
+}
